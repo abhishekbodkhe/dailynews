@@ -33,13 +33,7 @@ function App() {
 
   
   return (
-    // <>
-    //   <Header />
-    //   <Home />
-    //   <News />
-    //   <Testimonials />
-    //   <Footer />
-    // </>
+   
     <>
 
     < RouterProvider router={router} />

@@ -62,13 +62,10 @@ function Header (){
   
         <ul
           class='lg:flex lg:gap-x-10 max-lg:space-y-3 max-lg:fixed max-lg:bg-white max-lg:w-2/3 max-lg:min-w-[300px] max-lg:top-0 max-lg:left-0 max-lg:p-4 max-lg:h-full max-lg:shadow-md max-lg:overflow-auto z-50'>
-          <li class='max-lg:border-b max-lg:pb-4 px-3 lg:hidden'>
-            <Link href="javascript:void(0)"><img src="https://readymadeui.com/readymadeui.svg" alt="logo" class='w-36' />
-            </Link>
-          </li>
+          
           <li class='max-lg:border-b max-lg:px-3 max-lg:py-3'>
             <NavLink href='javascript:void(0)'
-              className={({isActive})=>`hover:text-[#007bff] ${ isActive ? "text-[#007bff]" : "text-gray-700"} font-semibold block text-[15px]`} to= '/' >Home</NavLink>
+              className={({isActive})=>`hover:text-[#007bff] ${ isActive ? "text-[#007bff]" : "text-gray-700"} font-semibold block text-[15px]`} to= '/' aria-current="page">Home</NavLink>
           </li>
           <li class='max-lg:border-b max-lg:px-3 max-lg:py-3'>
             <NavLink href='javascript:void(0)'
@@ -106,15 +103,7 @@ function Header (){
         </ul>
       </div>
   
-      <div id="toggleOpen" class='flex ml-auto lg:hidden'>
-        <button>
-          <svg class="w-7 h-7" fill="#000" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd"
-              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-              clip-rule="evenodd"></path>
-          </svg>
-        </button>
-      </div>
+
     </div>
   </header>
 
