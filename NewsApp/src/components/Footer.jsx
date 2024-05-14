@@ -6,7 +6,7 @@ function Footer(){
     return (
       
       
-<footer class="relative pt-8 pb-6 shadow-lg rounded-lg mt-3">
+<footer class="relative bg-gray-50 pt-8 pb-1 shadow-xl rounded-lg m-7 mb-1">
   <div class="container mx-auto px-4">
     <div class="flex flex-wrap text-left lg:text-left">
       <div class="w-full lg:w-6/12 px-4">
